@@ -1,0 +1,28 @@
+{
+  "data":[{
+    "name": "mpolicap",
+    "comment": "Datos fijos por suma asegurada",
+    "bloque": "B18",
+    "attributes": [
+      "CDUNIECO",
+      "CDRAMO",
+      "ESTADO",
+      "NMPOLIZA",
+      "NMSITUAC",
+      "CDCAPITA"
+    ]
+  },{
+    "name": "mpoligar",
+    "bloque": "B19",
+    "comment": "Datos fijos por cobertura",
+    "attributes": [
+      "CDUNIECO",
+      "CDRAMO",
+      "ESTADO",
+      "NMPOLIZA",
+      "NMSITUAC",
+      "CDCAPITA"
+    ]
+  }]
+}
+

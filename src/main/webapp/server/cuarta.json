@@ -1,0 +1,13 @@
+{
+  "data": [{
+    "value":"ASPEC" , "id":"19"
+  },{
+    "value":"LUXURY" , "id":"20"
+  },{
+    "value":"PREMIUM" , "id":"21"
+  },{
+    "value":"TECH" , "id":"22"
+  }],
+
+  "numFilas": "4"
+}

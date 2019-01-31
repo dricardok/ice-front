@@ -1,0 +1,15 @@
+
+.toolbar{
+    z-index: 15;
+    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+.maincard{
+    z-index: 10;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+@include extjs-toolbar-ui(
+    $ui: 'toolbar',
+    $background-color: #5E8FBE
+);

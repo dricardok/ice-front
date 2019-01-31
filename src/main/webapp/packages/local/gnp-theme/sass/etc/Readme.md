@@ -1,0 +1,4 @@
+# gnp-theme/sass/etc
+
+This folder contains miscellaneous SASS files. Unlike `"gnp-theme/sass/etc"`, these files
+need to be used explicitly.

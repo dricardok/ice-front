@@ -1,0 +1,91 @@
+
+.x-progress {
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+        border-radius: 3px !important;
+}
+
+.user-name{
+        font-size: 12pt;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 10px;
+}
+
+.user-img-min{
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+}
+
+.user-img{
+        border-radius: 50%;
+        height: 75px;
+        width: 75px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+}
+
+.user-panel{
+  background-color: #FDFDFD;
+}
+
+.leftpanel{
+        z-index: 20;
+        box-shadow:0 10px 16px 0 rgba(0,0,0,0.4),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+       // opacity: 0.9;
+}
+
+@include treelist-ui(
+        $ui: 'nav',
+        $padding: 0 10px,
+
+          // Black-ish background color
+        $background-color: rgba( $panel-navigation-background-color , 0.7 ),
+        $toolstrip-background-color: #FAFAFA,
+
+        $tool-float-indicator-color: $panel-header-background-color,
+        $tool-float-indicator-width: 5px,
+
+        $tool-indicator-selected-color: #303030,//lighten($panel-header-background-color, 7%),
+        $tool-indicator-selected-width: 15px,
+        $tool-selected-background-color: #FAFAFA,
+        $tool-selected-color: #303030,
+        //$tool-selected-background-color: #32404E,
+
+
+          // Taller line height
+        $item-line-height : $panel-navigation-item-line-height,
+
+        $row-over-background-color: mix(white, $panel-navigation-background-color, 5%),
+        $row-selected-background-color: mix( #2B2D42 , $panel-navigation-background-color, 10%),
+
+          // Off-white text
+        $item-icon-color: #303030,
+        $item-expander-color: #303030,
+        $item-text-color: #303030,
+
+          // Brighter when hovered
+        $item-icon-over-color: #FFF,
+        $item-expander-over-color: #FFF,
+        $item-text-over-color: mix( white , #303030 , 50% ),
+        $item-text-font-size: 16px,
+
+          // Various sizes for the pieces:
+        $item-icon-font-size: 25px,
+        $item-icon-width: 60px,
+        $item-expander-font-size: 16px,
+        $item-expander-width: 30px,
+
+          // Style the "row indicator" (the vertical stripe on the left edge):
+        $row-indicator-width: 5px,
+        $row-indicator-selected-color: #32404E,
+        $row-indicator-selected-over-color: lighten($panel-header-background-color, 7%),
+        $row-indicator-over-color: transparent
+);
+
+

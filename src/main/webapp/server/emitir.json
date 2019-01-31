@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "message": null,
+  "data": {
+    "emitida": true,
+    "nmpoliza": "12345",
+    "validaciones": null
+  }
+}

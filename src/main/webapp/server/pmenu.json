@@ -1,0 +1,52 @@
+
+{
+    "items":[{
+      "id":"datosgenerales",
+      "xtype":"productsgeneralinformation",
+      "iconCls": "x-fa fa-info",
+      "text": "Datos Generales",
+      "leaf": true
+    },{
+      "id":"riesgos",
+      "xtype":"riskmainpanel",
+      "iconCls": "x-fa fa-exclamation-circle",
+      "text": "Riegos",
+      "leaf": true
+    },{
+      "id":"variables",
+      "xtype":"variabledatagridpanel",
+      "iconCls": "x-fa fa-database",
+      "text": "Datos Variables",
+      "leaf": true
+    },{
+      "id":"fijos",
+      "xtype":"icereport",
+      "iconCls": "far fa-clock",
+      "text": "Datos Fijos",
+      "leaf": true
+    },{
+      "id":"roles",
+      "xtype":"icereport",
+      "iconCls": "fas fa-user",
+      "text": "Roles",
+      "leaf": true
+    },{
+      "id":"conceptos",
+      "xtype":"icereport",
+      "iconCls": "fas fa-globe-americas",
+      "text": "Conceptos Globales",
+      "leaf": true
+    },{
+      "id":"temporales",
+      "xtype":"icereport",
+      "iconCls": "far fa-clock",
+      "text": "Variables Temporales",
+      "leaf": true
+    },{
+      "id":"reglas",
+      "xtype":"icereport",
+      "iconCls": "fas fa-check-double",
+      "text": "Reglas de Validacion",
+      "leaf": true
+    }]
+}

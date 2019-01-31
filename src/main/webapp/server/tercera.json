@@ -1,0 +1,19 @@
+{
+  "data": [{
+    "value":"ILX" , "id":"12"
+  },{
+    "value":"MDX" , "id":"13"
+  },{
+    "value":"RDX" , "id":"14"
+  },{
+    "value":"RL" , "id":"15"
+  },{
+    "value":"RLX" , "id":"16"
+  },{
+    "value":"TL" , "id":"17"
+  },{
+    "value":"TLX" , "id":"18"
+  }],
+
+  "numFilas": "7"
+}

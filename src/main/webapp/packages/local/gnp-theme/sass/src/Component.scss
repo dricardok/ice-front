@@ -1,0 +1,35 @@
+
+.header_client{
+    background-color: #F9F9F9;
+    box-shadow: 0 2px 4px rgba(0,0,0,.5);
+    display: inline-flex;
+    flex-direction: row;
+    }
+
+.logo_01 img{   
+         height: 40px !important;
+         width: auto; 
+         display:flex;
+        }
+
+.logo_02 img{
+         height: 25px !important;
+         width: auto;          
+         position: relative; 
+         display:flex;   
+        }
+
+.n-user{
+    weight: 600;
+    color:#4c4d4 !important;
+    font-size: 12px !important;
+    font-weight: 600;
+    line-height: 15px;
+    padding-right: 15px;    
+    text-align: right !important;   
+        .cod-cliente{
+            font-size: 11px !important;
+            color: #979797;
+            font-weight: 400;                
+                     }
+}

@@ -1,0 +1,2 @@
+# delia-theme - Read Me
+

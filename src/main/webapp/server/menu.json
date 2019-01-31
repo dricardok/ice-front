@@ -1,0 +1,22 @@
+
+{
+    "items":[{
+      "id":"products",
+      "xtype":"productstabpanel",
+      "iconCls": "x-fa fa-gear",
+      "text": "Parametrizador",
+      "leaf": true
+    },{
+      "id":"prototype",
+      "xtype":"prototypepanel",
+      "iconCls": "x-fa fa-car",
+      "text": "POC",
+      "leaf": true
+    },{
+      "id":"report",
+      "xtype":"icereport",
+      "iconCls": "x-fa fa-edit",
+      "text": "Reportes",
+      "leaf": true
+    }]
+}

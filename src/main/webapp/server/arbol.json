@@ -1,0 +1,64 @@
+{
+  "data":{
+    "variables":{
+      "$W6070027":{
+        "value" : "$W0000009 + 4"
+      },
+      "$W6070016":{
+        "value" : "21"
+      },
+      "$W0000009":{
+        "value": "$W6070017 + 12"
+      },
+      "$W6070017":{
+        "value": " :mpoligar.estado + ( 113 * :mpoliper.nombre )"
+      },
+      "$W6070033":{
+        "value": " :mpoligar.nmpoliza + ( 113 * :mpoliper.nombre )"
+      }
+    },
+    "tablas":[{
+      "codigo": "001",
+      "nombre": "Personas",
+      "descripcion": "Esta es la tabla de las personas",
+      "llaves" : [{
+        "nombre": "cdramo",
+        "code": "0001"
+      },{
+        "nombre": "cdperson",
+        "code": "0002"
+      }],
+      "columnas": [{
+        "code": "000A",
+        "nombre": "Nombre"
+      },{
+        "code": "000B",
+        "nombre": "Aperllido"
+      }, {
+        "code": "000C",
+        "nombre": "Edad"
+      }]
+    },{
+      "codigo": "002",
+      "nombre": "Polizas",
+      "descripcion": "Esta es la tabla de las polizas",
+      "llaves" : [{
+        "nombre": "cdramo",
+        "code": "0001"
+      },{
+        "nombre": "cdpoliza",
+        "code": "0002"
+      }],
+      "columnas": [{
+        "code": "000A",
+        "nombre": "Nombre"
+      },{
+        "code": "000B",
+        "nombre": "Aperllido"
+      }, {
+        "code": "000C",
+        "nombre": "Edad"
+      }]
+    }]
+  }
+}

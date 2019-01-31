@@ -1,0 +1,26 @@
+.classpath
+.project
+.settings/*
+.tern-project
+bin/*
+target/*
+.idea
+src/main/resources/rebel.xml
+iceMVC.eml
+
+
+
+# Archivos de Sencha EXTJS
+.sencha/
+.settings/
+bootstrap.css
+bootstrap.js
+build.xml
+build/*
+classic.json
+classic.jsonp
+modern.json
+modern.jsonp
+sass/example/*
+workspace.json
+

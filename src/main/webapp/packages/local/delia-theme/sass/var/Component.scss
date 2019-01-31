@@ -1,0 +1,82 @@
+
+@import "All";
+@import "Treepanel";
+@import "Toolbar";
+@import "tagfield";
+@import "buttons";
+
+@font-face {
+  font-family:"Segoe";
+  src: url("../../../../../resources/biosnet/font/Segoe/segoeui.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+  font-family:"SegoeB";
+  src: url("../../../../../resources/biosnet/font/Segoe/seguisb.ttf") /* TTF file for CSS3 browsers */
+}
+
+$base_color: #5E8FBE;
+$font-family: 'Poppins', sans-serif;
+$datepicker_column_header_background_color: #FFFFFF;
+$datepicker-border-color: #FFFFFF;
+$base-highlight-color: #FFFFFF;
+$datepicker-header-background-color: #FFFFFF;
+$datepicker-column-header-color: #FFFFFF;
+$datepicker_column_header_border_color: #FFFFFF;
+$datepicker_header_background_color: #FFFFFF;
+$datepicker-item-today-border-color: #FFFFFF;
+$datepicker-footer-border-color: #FFFFFF;
+
+$panel-header-background-color: #FAFAFA;
+
+$panel-navigation-background-color: #FAFAFA;
+
+$panel-header-font-family: 'Poppins', sans-serif;
+$panel-header-font-size: 13pt;
+$panel-header-font-weight: bolder;
+$panel-header-color: #4e83b7;
+$panel-border-width: 0px;
+$panel-frame-border-width: 0px;
+
+
+$form-field-font-size: 11pt;
+
+$button-default-inner-border-width-focus-pressed: 0;
+
+$button-toolbar-color: #FAFAFA;
+
+
+.x-grid-item-selected {
+  color: #FAFAFA !important;
+  background-color: #4e83b7 !important;
+  border: 0px !important;
+  opacity: 0.9;
+}
+.x-grid-item-focused{
+  color: #FAFAFA !important;
+  border: 0px !important;
+}
+
+.x-tab-focus{
+  outline: 0px !important;
+}
+
+.x-tab.x-tab-active.x-tab-default {
+  border-color: #fff;
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+
+.x-tab-button-default {
+  height: 40px;
+}
+
+.x-tab-inner-default {
+  font: 400 14px/20px 'Poppins', sans-serif !important;
+  color: #f0f0f0;
+}
+
+.x-boundlist-item-over{
+  color: #FAFAFA !important;
+  background-color: #4e83b7 !important;
+}

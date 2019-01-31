@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html manifest="">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes">
+
+    <link rel="shortcut icon" type="image/x-icon" href="resources/biosnet/img/favicon.ico" />
+    <title>Insurance Configuration Engine</title>
+
+    <script src="resources/biosnet/urls.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- CodeMirror CSS -->
+    <link rel="stylesheet" href="resources/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="resources/codemirror/theme/oceanic-next.css">
+    <link rel="stylesheet" href="resources/codemirror/addon/hint/show-hint.css">
+
+    <!--Import materialize.css-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Reporter Bro -->
+    <link rel="stylesheet" href="resources/reporterbro/distt/spectrum.min.css"/>
+    <link rel="stylesheet" href="resources/reporterbro/distt/reportbro.css"/>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" href="resources/biosnet/load.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+
+    <script type="text/javascript">
+        var Ext = Ext || {},
+            go = go || {},
+            Urls = Urls || {};// Ext namespace won't be defined yet...
+
+        // This function is called by the Microloader after it has performed basic
+        // device detection. The results are provided in the "tags" object. You can
+        // use these tags here or even add custom tags. These can be used by platform
+        // filters in your manifest or by platformConfig expressions in your app.
+        //
+        Ext.beforeLoad = function (tags) {
+            var s = location.search,  // the query string (ex "?foo=1&bar")
+                profile;
+
+            // For testing look for "?classic" or "?modern" in the URL to override
+            // device detection default.
+            //
+            if (s.match(/\bclassic\b/)) {
+                profile = 'classic';
+            }
+            else if (s.match(/\bmodern\b/)) {
+                profile = 'modern';
+            }
+            else {
+                profile = tags.desktop ? 'classic' : 'modern';
+                //profile = tags.phone ? 'modern' : 'classic';
+            }
+
+            Ext.manifest = profile; // this name must match a build profile name
+
+            // This function is called once the manifest is available but before
+            // any data is pulled from it.
+            //
+            //return function (manifest) {
+                // peek at / modify the manifest object
+            //};
+        };
+    </script>
+
+    <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+    <script id="microloader" data-app="dbcb6240-f7f1-43b3-90fe-e5f79864936b" type="text/javascript" src="bootstrap.js"></script>
+
+    <!-- Materialize-->
+
+
+    <!-- Sweet Alert-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- Include Reporter Bro. -->
+    <script type='text/javascript' src='resources/jquery/jquery.min.js'></script>
+    <script type='text/javascript' src='resources/reporterbro/distt/spectrum.min.js'></script>
+    <script type='text/javascript' src='resources/reporterbro/distt/autosize.min.js'></script>
+    <script type='text/javascript' src='resources/reporterbro/distt/JsBarcode.all.min.js'></script>
+    <script type='text/javascript' src='resources/reporterbro/distt/reportbro.js'></script>
+
+    <!-- Codemirror Js-->
+    <script src="resources/codemirror/lib/codemirror.js"></script>
+    <script src="resources/codemirror/addon/hint/show-hint.js"></script>
+    <script src="resources/codemirror/addon/mode/overlay.js"></script>
+    <script src="resources/codemirror/addon/mode/simple.js"></script>
+    <script src="resources/autosuggest/autosuggest.js"></script>
+    <script src="resources/codemirror/mode/biosnet/biosnet.js"></script>
+    <script src="resources/codemirror/mode/markdown/markdown.js"></script>
+    <script src="resources/codemirror/addon/edit/closebrackets.js"></script>
+
+
+    <script src="resources/jsPDF/dist/jspdf.debug.js"></script>
+    <script src="resources/jsPDF/dist/html2canvas.js"></script>
+
+
+
+</head>
+<body></body>
+</html>

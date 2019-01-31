@@ -1,0 +1,45 @@
+{
+  "data":[{
+      "codigo": "001",
+      "nombre": "Personas",
+      "descripcion": "Esta es la tabla de las personas",
+      "llaves" : [{
+        "nombre": "cdramo",
+        "code": "0001"
+      },{
+        "nombre": "cdperson",
+        "code": "0002"
+      }],
+      "columnas": [{
+        "code": "000A",
+        "nombre": "Nombre"
+      },{
+        "code": "000B",
+        "nombre": "Aperllido"
+      }, {
+        "code": "000C",
+        "nombre": "Edad"
+      }]
+    },{
+      "codigo": "002",
+      "nombre": "Polizas",
+      "descripcion": "Esta es la tabla de las polizas",
+      "llaves" : [{
+        "nombre": "cdramo",
+        "code": "0001"
+      },{
+        "nombre": "cdpoliza",
+        "code": "0002"
+      }],
+      "columnas": [{
+        "code": "000A",
+        "nombre": "Nombre"
+      },{
+        "code": "000B",
+        "nombre": "Aperllido"
+      }, {
+        "code": "000C",
+        "nombre": "Edad"
+      }]
+    }]
+}

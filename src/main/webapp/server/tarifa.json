@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "message": null,
+  "list": [
+    {
+      "nmsituac": "1",
+      "cdgarant": "a",
+      "dsgarant": "Cobertura A",
+      "ptimport": "100.00"
+    },
+    {
+      "nmsituac": "1",
+      "cdgarant": "b",
+      "dsgarant": "Cobertura B",
+      "ptimport": "200.50"
+    },
+    {
+      "nmsituac": "1",
+      "cdgarant": "c",
+      "dsgarant": "Cobertura C",
+      "ptimport": "300.99"
+    }
+  ]
+}
